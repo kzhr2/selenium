@@ -1,0 +1,27 @@
+{
+  "capabilities":
+    [
+      {
+        // OS名
+        "platform": "Windows 10",
+        // Browser名
+        "browserName": "firefox",
+        // 起動するインスタンスの最大数
+        "maxInstances": 1,
+        // Selenium RC、Selenium WebDriverのどちらのモードで実行するかを設定
+        "seleniumProtocol": "WebDriver"
+      },
+      {
+        // OS名
+        "platform": "Windows 10",
+        // Browser名
+        "browserName": "internet explorer",
+        "version": "11",
+        "maxInstances": 1,
+        "seleniumProtocol": "WebDriver"
+      }
+    ],
+    // Nodeとして追加するHubサーバーのアドレス
+    "hub": "http://192.168.0.13:4444/grid/register",
+    "register": true
+}
