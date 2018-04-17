@@ -1,0 +1,7 @@
+temp/*
+lib/*
+java/*
+drivers/*
+downloads/*
+
+!.gitkeep
