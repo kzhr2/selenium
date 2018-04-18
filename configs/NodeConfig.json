@@ -23,5 +23,7 @@
     ],
     // Nodeとして追加するHubサーバーのアドレス
     "hub": "http://192.168.0.13:4444/grid/register",
-    "register": true
+    "register": true,
+    "host": 192.168.0.15,
+    "port": 5555
 }
