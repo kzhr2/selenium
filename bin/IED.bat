@@ -8,12 +8,12 @@ set IED_PATH_TMP=%IED_PATH_CRD%\temp
 set IED_PATH_DWL=%IED_PATH_CRD%\downloads
 set IED_PATH_DRV=%IED_PATH_CRD%\drivers
 
-set IED_FILE_IED_ZIP=IEDriverServer_x64_3.9.0.zip
+set IED_FILE_IED_ZIP=IEDriverServer_x64_3.11.1.zip
 set IED_FILE_IED_exe=IEDriverServer.exe
 set GEK_FILE_GEK_ZIP=geckodriver-v0.20.1-win64.zip
 set GEK_FILE_GEK_exe=geckodriver-v0.20.1-win64.exe
 
-set IED_URL_IED=http://selenium-release.storage.googleapis.com/3.9/IEDriverServer_x64_3.9.0.zip
+set IED_URL_IED=https://goo.gl/WMxNFq
 set GEK_URL_GEK=https://github.com/mozilla/geckodriver/releases/download/v0.20.1/geckodriver-v0.20.1-win64.zip
 
 set IED_CMD=%IED_PATH_BIN%\CMD.bat
